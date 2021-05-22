@@ -1,6 +1,10 @@
+import styles from '../styles/home.module.scss';
+
 function Home() {
   return (
-    <h1>Hello World</h1>
+    <h1 className={styles.title}>
+      Hello <span>World</span>
+    </h1>
   )
 }
 
