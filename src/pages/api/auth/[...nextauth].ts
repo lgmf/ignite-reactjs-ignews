@@ -1,7 +1,7 @@
 import NextAuth from "next-auth";
 import Providers from "next-auth/providers";
 
-import { fauna, query as q } from "../../../services/fauna";
+import { fauna, q } from "../../../services/fauna";
 
 export default NextAuth({
   providers: [
